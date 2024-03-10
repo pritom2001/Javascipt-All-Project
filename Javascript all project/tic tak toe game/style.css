@@ -1,0 +1,26 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    font-size: 45px;
+    border: 2px solid;
+    text-align: center;
+    box-shadow: 0 0 0 2px rgb(36, 33, 33);
+    line-height: 75px;
+}
+#gameContainer{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 230px;
+    margin: auto;
+}
+#restartBtn{
+    height: 34px;
+    width: 120px;
+    color: brown;
+    margin-top: 30px;
+    font-size: 23px;
+}
